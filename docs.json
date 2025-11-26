@@ -7,7 +7,7 @@
     "light": "#A29BFE",
     "dark": "#5B4DE6"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/images/logo.png",
   "navigation": {
     "tabs": [
       {
@@ -72,8 +72,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/vex-light.svg",
-    "dark": "/logo/vex-dark.svg"
+    "light": "/images/logo.png",
+    "dark": "/images/logo.png"
   },
   "navbar": {
     "links": [
