@@ -29,6 +29,7 @@
           {
             "group": "Creation",
             "pages": [
+              "tools/text-to-image",
               "tools/text-to-video",
               "tools/image-to-video"
             ]
