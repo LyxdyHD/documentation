@@ -7,6 +7,10 @@ description: "Enhance resolution and detail up to 4×"
 
 Improve clarity and sharpness while preserving textures and edges. Ideal for social exports or print-ready assets.
 
+<Note icon="info">
+Upscaler is available only for the last image you generated in the current session. If you start a new generation, the previous image becomes inactive for upscaling. This temporary limitation will be lifted in an upcoming update.
+</Note>
+
 ## Controls
 
 <CardGroup cols={2}>
@@ -26,6 +30,18 @@ Improve clarity and sharpness while preserving textures and edges. Ideal for soc
 
 ## Workflow
 
-- Upscale final selections after generation
-- Compare detail settings side-by-side before exporting
-- Use lower artifact reduction for clean sources; higher for compressed images
+- Generate an image (Text to Image or Image to Video still).
+- Open Upscaler from the result panel. Only the most recent image is eligible.
+- Choose 2× or 4×, set Detail and Artifact Reduction.
+- Preview and compare side-by-side, then export.
+
+## Best practices
+
+- Use 2× for web/social; 4× for print or cropping.
+- Lower Artifact Reduction for clean sources; higher for compressed or low-res inputs.
+- Keep Face Restore off for non-portrait content to avoid over-smoothing.
+
+## Known limitations
+
+- Only the last generated image in the session is eligible for upscaling.
+- Batch upscaling and historical asset selection are coming soon.

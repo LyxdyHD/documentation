@@ -72,8 +72,8 @@
     ]
   },
   "logo": {
-    "light": "/images/logo.png",
-    "dark": "/images/logo.png"
+    "light": "/logo/vex-wordmark-light.svg",
+    "dark": "/logo/vex-wordmark-dark.svg"
   },
   "navbar": {
     "links": [
