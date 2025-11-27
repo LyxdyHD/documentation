@@ -15,8 +15,7 @@ Start from a still image and add motion. Great for product shots, key art, and s
 
 ## Parameters
 
-- `durationSeconds`: Default 8; 4–12 for social-friendly clips.
-- `frameRate`: Default 24.
+- `durationSeconds`: Up to 8 seconds (default 8).
 - `motionStrength`: Default 0.6; 0.3–0.8 determines intensity.
 - `motionDirection`: e.g., pan left/right, zoom in/out, parallax layers.
 - `stabilizationStrength`: Default 0.5; reduces jitter.
@@ -37,11 +36,11 @@ Prompt = Subject + Subject Description + Movement + Scene + Scene Details + Came
 
 ## Examples
 
-- Product shot with parallax: foreground product stable, background gentle parallax left → right.
+- Product parallax: foreground stable, background gentle parallax left → right.
   Settings: `durationSeconds=6`, `motionStrength=0.5`, `stabilizationStrength=0.6`
 
-- Landscape zoom: slow push-in across a sunset vista.
-  Settings: `durationSeconds=10`, `motionStrength=0.4`, `motionDirection=zoom-in`
+- Landscape push‑in: slow zoom across a sunset vista.
+  Settings: `durationSeconds=8`, `motionStrength=0.4`, `motionDirection=zoom-in`
 
 ## Image → Video gallery
 
@@ -49,10 +48,13 @@ Prompt = Subject + Subject Description + Movement + Scene + Scene Details + Came
 
 <Columns cols={3}>
   <div>
-    <h4>aaa image — noir alley</h4>
-    <img src="/images/aaa.jpg" alt="Noir alley source" className="w-full rounded-xl" noZoom />
+    <img src="/images/aaa.jpg" alt="Source photo" className="w-full rounded-xl" noZoom />
+    <div>
+      Low‑angle static; rainy noir alley; pushed Vision3 500T look; drizzle, neon flicker, steam; subtle breath; eyelids slowly open; 4s cut.
+    </div>
     <video
-      className="w-full aspect-video rounded-xl"
+      className="w-full rounded-xl"
+      style={{objectFit: "contain"}}
       src="https://res.cloudinary.com/dffj8ly14/video/upload/v1764254939/download_14_xa2xif.mp4"
       controls
       playsInline
@@ -60,13 +62,15 @@ Prompt = Subject + Subject Description + Movement + Scene + Scene Details + Came
       controlsList="nodownload noremoteplayback nofullscreen noplaybackrate"
       disablePictureInPicture
     ></video>
-    <small>Low‑angle static shot; pushed Vision3 500T texture; drizzle, neon flicker, manhole steam; subtle breath; eyes slowly open; cut at 4s.</small>
   </div>
   <div>
-    <h4>sss image — rainy platform</h4>
-    <img src="/images/sss.jpg" alt="Rainy platform source" className="w-full rounded-xl" noZoom />
+    <img src="/images/sss.jpg" alt="Source photo" className="w-full rounded-xl" noZoom />
+    <div>
+      Static rainy platform through window; warm horizontal flare; pensive expression; subtle eye glisten and breath; hold on mood; 4s.
+    </div>
     <video
-      className="w-full aspect-video rounded-xl"
+      className="w-full rounded-xl"
+      style={{objectFit: "contain"}}
       src="https://res.cloudinary.com/dffj8ly14/video/upload/v1764254944/download_15_esu6hy.mp4"
       controls
       playsInline
@@ -74,13 +78,15 @@ Prompt = Subject + Subject Description + Movement + Scene + Scene Details + Came
       controlsList="nodownload noremoteplayback nofullscreen noplaybackrate"
       disablePictureInPicture
     ></video>
-    <small>Static frame through rainy window; warm horizontal anamorphic flare; pensive expression; subtle eye glisten and breath; holds on mood.</small>
   </div>
   <div>
-    <h4>ddd image — arcane scriptorium</h4>
-    <img src="/images/ddd.jpg" alt="Scriptorium source" className="w-full rounded-xl" noZoom />
+    <img src="/images/ddd.jpg" alt="Source photo" className="w-full rounded-xl" noZoom />
+    <div>
+      Dark scriptorium; chiaroscuro; candle warm key; book glows with purple energy; particles/runes rise; eyes glow; cape billow; freeze on climax; 4s.
+    </div>
     <video
-      className="w-full aspect-video rounded-xl"
+      className="w-full rounded-xl"
+      style={{objectFit: "contain"}}
       src="https://res.cloudinary.com/dffj8ly14/video/upload/v1764254948/download_16_sfwgoj.mp4"
       controls
       playsInline
@@ -88,6 +94,5 @@ Prompt = Subject + Subject Description + Movement + Scene + Scene Details + Came
       controlsList="nodownload noremoteplayback nofullscreen noplaybackrate"
       disablePictureInPicture
     ></video>
-    <small>Low‑angle medium; chiaroscuro; candle warm key; book glows with purple energy; particles and runes lift; eyes glow; cape billow; freeze on climax.</small>
   </div>
 </Columns>
