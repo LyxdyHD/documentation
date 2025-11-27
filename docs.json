@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/mint.json",
-  "theme": "venus",
+  "theme": "mint",
   "name": "VexRender",
   "colors": {
     "primary": "#6C5CE7",
