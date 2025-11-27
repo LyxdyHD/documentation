@@ -1,5 +1,5 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
+  "$schema": "https://mintlify.com/mint.json",
   "theme": "venus",
   "name": "VexRender",
   "colors": {
@@ -9,8 +9,8 @@
   },
   "favicon": "/images/logo.png",
   "logo": {
-    "light": "/logo/vex-wordmark-light.svg?v=2",
-    "dark": "/logo/vex-wordmark-dark.svg?v=2"
+    "light": "/images/vex-wordmark-light.svg?v=3",
+    "dark": "/images/vex-wordmark-dark.svg?v=3"
   },
   "navigation": [
     {
