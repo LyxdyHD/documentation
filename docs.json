@@ -1,5 +1,5 @@
 {
-  "$schema": "https://mintlify.com/mint.json",
+  "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "VexRender",
   "colors": {
@@ -12,47 +12,69 @@
     "light": "/images/vex-wordmark-light.svg?v=3",
     "dark": "/images/vex-wordmark-dark.svg?v=3"
   },
-  "navigation": [
-    {
-      "group": "Getting Started",
-      "pages": [
-        "index",
-        "quickstart",
-        "guides/how-vexrender-works"
-      ]
-    },
-    {
-      "group": "Creation",
-      "pages": [
-        "tools/text-to-image",
-        "tools/text-to-video",
-        "tools/image-to-video"
-      ]
-    },
-    {
-      "group": "Enhancement",
-      "pages": [
-        "tools/motion-brush",
-        "tools/style-transfer",
-        "tools/upscaler",
-        "tools/export-and-formats"
-      ]
-    },
-    {
-      "group": "Help",
-      "pages": [
-        "resources/prompts-library",
-        "resources/faqs"
-      ]
-    },
-    {
-      "group": "Legal",
-      "pages": [
-        "legal/terms",
-        "legal/privacy"
-      ]
-    }
-  ],
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "index",
+              "quickstart",
+              "guides/how-vexrender-works"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Tools",
+        "groups": [
+          {
+            "group": "Creation",
+            "pages": [
+              "tools/text-to-image",
+              "tools/text-to-video",
+              "tools/image-to-video"
+            ]
+          },
+          {
+            "group": "Enhancement",
+            "pages": [
+              "tools/motion-brush",
+              "tools/style-transfer",
+              "tools/upscaler",
+              "tools/export-and-formats"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "Help",
+            "pages": [
+              "resources/prompts-library",
+              "resources/faqs"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Legal",
+        "groups": [
+          {
+            "group": "Legal",
+            "pages": [
+              "legal/terms",
+              "legal/privacy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "navbar": {
     "links": [
       {
